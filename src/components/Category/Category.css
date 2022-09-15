@@ -1,0 +1,16 @@
+.CategoryList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Category{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+h3{
+    margin: 0;
+}
+.Category:hover{
+    filter: invert(0.5);
+}

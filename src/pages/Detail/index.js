@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import  GifsContext  from '../../context/GifsContextProvider';
-import Gif from "../../components/Gif"
+import  GifsContext  from 'context/GifsContextProvider';
+import Gif from "components/Gif"
 
 export default function Detail({params}) {
     const {gifs} = useContext(GifsContext)

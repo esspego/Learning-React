@@ -2,11 +2,11 @@
 import './App.css';
 
 import { Link, Route } from "wouter"
-import Detail from './pages/Detail';
-import Home from './pages/Home';
-import SearchResults from './pages/SearchResults';
-import StaticContext from './context/StaticContext';
-import { GifsContextProvider } from './context/GifsContextProvider';
+import Detail from 'pages/Detail';
+import Home from 'pages/Home';
+import SearchResults from 'pages/SearchResults';
+import StaticContext from 'context/StaticContext';
+import { GifsContextProvider } from 'context/GifsContextProvider';
 
 function App() {
    
