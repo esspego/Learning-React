@@ -11,7 +11,7 @@ import { GifsContextProvider } from 'context/GifsContextProvider';
 function App() {
    
   return (
-    <StaticContext.Provider value={{name:'hola'}}>
+    <StaticContext.Provider value={{name:'test'}}>
       <div className="App">
         <section className="App-content">
           <Link to='/'>
@@ -38,3 +38,4 @@ function App() {
 }
 
 export default App;
+// NEXT CLASS: CSS Grid, Infinite Scroll y Testing

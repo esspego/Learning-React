@@ -27,13 +27,13 @@ export default function Home() {
             </form>
             <div className="App-results">
           </div>
+            <h3 className="App-title">Última búsqueda</h3>
+            <ListOfGifs gifs={gifs} />
             <h3 className="App-category">Los gifs más populares</h3>
             <div>
                 <TrendingSearches/>
                 
             </div>
-            <h3 className="App-title">Última búsqueda</h3>
-            <ListOfGifs gifs={gifs} />
 
         </>
     )
